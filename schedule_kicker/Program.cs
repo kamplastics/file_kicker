@@ -207,7 +207,7 @@ namespace regeditor
                     if (kicker.Trim() != "1")
                     {
                         Console.WriteLine("Error: Kicker is not set to 1. Exiting...");
-                        return;
+                        continue;
                     }
                     else
                     {
@@ -218,7 +218,7 @@ namespace regeditor
                 else
                 {
                     Console.WriteLine("Error: kick.txt not found. Exiting..." + basePath + "\\" + "kick.txt");
-                    return; // no kick.txt
+                    continue; // no kick.txt
                 }
                 using (WindowsLogin wl = new WindowsLogin(username, domain, password))
                 {
