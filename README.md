@@ -7,7 +7,7 @@ The file kicker aims to make a normie friendly method to kick people out of file
 
 Create the directory + file  kick\kick.txt in the folder you wish to kick people out of.
 
-Then create a scehduled task to this application that runs with the highest priviliages. 
+Then create a scehduled task to this application that runs with the highest priviliages. I set mine to run every 5 minutes and told the end users to wait 5 minutes after setting the `kick.txt` file to 1. 
 
 This is particurally useful with shared excel files on a shared network. 
 
